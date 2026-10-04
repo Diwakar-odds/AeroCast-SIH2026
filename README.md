@@ -62,7 +62,7 @@ By continuously ingesting live **INSAT-3D/3DR satellite streams (via MOSDAC)**, 
 3. 🌊 **Flash Flood Catchment Inundation & Debris Runoff Risk**
 
 <p align="center">
-  <img src="assets/before_after_viability.jpg" alt="AeroCast Before vs After Operational Comparison" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/before_after_viability.jpg" alt="AeroCast Before vs After Operational Comparison" width="100%"/>
 </p>
 
 | Operational Dimension | Traditional NWP / Radar | AeroCast AI Nowcast | Operational Gain |
@@ -79,7 +79,7 @@ By continuously ingesting live **INSAT-3D/3DR satellite streams (via MOSDAC)**, 
 ## 🏗️ End-to-End System Architecture
 
 <p align="center">
-  <img src="assets/system_architecture.jpg" alt="AeroCast System Pipeline" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/system_architecture.jpg" alt="AeroCast System Pipeline" width="100%"/>
 </p>
 
 AeroCast operates across a 4-tier streaming pipeline:
@@ -93,7 +93,7 @@ AeroCast operates across a 4-tier streaming pipeline:
 ## 🧠 Model Architecture & Multi-Task Inference
 
 <p align="center">
-  <img src="assets/convlstm_architecture.jpg" alt="ConvLSTM Encoder-Decoder with Cross-Attention" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/convlstm_architecture.jpg" alt="ConvLSTM Encoder-Decoder with Cross-Attention" width="100%"/>
 </p>
 
 ```
@@ -125,11 +125,11 @@ Input Tensor: [Batch, T=12 (3hr), Channels=10, 256, 256]
 ## 🖥️ WebGIS Dashboard & Explainable AI
 
 <p align="center">
-  <img src="assets/dashboard_ui.jpg" alt="AeroCast GIS Dashboard UI" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/dashboard_ui.jpg" alt="AeroCast GIS Dashboard UI" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="assets/xai_panel.jpg" alt="AeroCast Explainable AI Diagnostic Panel" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/xai_panel.jpg" alt="AeroCast Explainable AI Diagnostic Panel" width="100%"/>
 </p>
 
 ### Key Capabilities:
@@ -142,7 +142,7 @@ Input Tensor: [Batch, T=12 (3hr), Channels=10, 256, 256]
 ## 📊 Historical Backtesting & Validation
 
 <p align="center">
-  <img src="assets/backtesting_evaluation.jpg" alt="AeroCast Backtesting Performance & Lead Time Distribution" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/backtesting_evaluation.jpg" alt="AeroCast Backtesting Performance & Lead Time Distribution" width="100%"/>
 </p>
 
 Evaluated against India's most catastrophic convective disasters:
@@ -157,7 +157,7 @@ Evaluated against India's most catastrophic convective disasters:
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="assets/tech_stack.jpg" alt="AeroCast Production Tech Stack" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/tech_stack.jpg" alt="AeroCast Production Tech Stack" width="100%"/>
 </p>
 
 | Component | Technologies |

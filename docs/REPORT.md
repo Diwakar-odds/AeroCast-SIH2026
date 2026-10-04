@@ -9,7 +9,7 @@
 ---
 
 <p align="center">
-  <img src="../assets/system_architecture.jpg" alt="AeroCast End-to-End System Architecture" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/system_architecture.jpg" alt="AeroCast End-to-End System Architecture" width="100%"/>
 </p>
 
 ---
@@ -245,7 +245,7 @@ Convective cloudburst precipitation transforms into catastrophic flash floods go
 AeroCast utilizes a **Multimodal Spatiotemporal ConvLSTM with Cross-Attention Fusion and Multi-Task Branching Heads**, specifically engineered to capture nonlinear interactions between satellite radiances, thermodynamic stability fields, and surface topography.
 
 <p align="center">
-  <img src="../assets/convlstm_architecture.jpg" alt="AeroCast ConvLSTM Architecture Diagram" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/convlstm_architecture.jpg" alt="AeroCast ConvLSTM Architecture Diagram" width="100%"/>
 </p>
 
 ### 4.1 ConvLSTM Encoder-Decoder Architecture
@@ -447,7 +447,7 @@ The model was trained on 4 $\times$ NVIDIA A100 80GB SXM4 GPUs using PyTorch Dis
 AeroCast was subjected to rigorous retrospective evaluation on the five most destructive mesoscale convective disasters in modern Indian history.
 
 <p align="center">
-  <img src="../assets/backtesting_evaluation.jpg" alt="AeroCast Historical Backtesting Performance & Lead Time Distribution" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/backtesting_evaluation.jpg" alt="AeroCast Historical Backtesting Performance & Lead Time Distribution" width="100%"/>
 </p>
 
 ### 7.1 Five Historical Extreme Events Case Studies
@@ -528,7 +528,7 @@ AeroCast features an operational, mission-critical WebGIS decision support syste
 ### 8.1 Map View with Risk Heatmap
 
 <p align="center">
-  <img src="../assets/dashboard_ui.jpg" alt="AeroCast Live WebGIS Command Center" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/dashboard_ui.jpg" alt="AeroCast Live WebGIS Command Center" width="100%"/>
 </p>
 
 - **Real-Time Interactive GIS:** Built on Leaflet / MapLibre GL with vector tile overlays.
@@ -538,7 +538,7 @@ AeroCast features an operational, mission-critical WebGIS decision support syste
 ### 8.2 XAI Panel Showing Trigger Variables
 
 <p align="center">
-  <img src="../assets/xai_panel.jpg" alt="AeroCast Explainable AI (XAI) Telemetry Panel" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Diwakar-odds/AeroCast-SIH2026/main/assets/xai_panel.jpg" alt="AeroCast Explainable AI (XAI) Telemetry Panel" width="100%"/>
 </p>
 
 For meteorologists and disaster commanders, AI cannot be a black box. AeroCast incorporates an **Explainable AI (XAI)** telemetry screen powered by **Integrated Gradients** and **Spatial SHAP**:
